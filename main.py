@@ -10,6 +10,10 @@ from pytube import YouTube
 root = tk.Tk()
 root.title('YouTube Video Downloader')
 root.config(bg='#12171C')
+root.geometry('650x300')
+root.minsize(600,250)
+
+root.maxsize(700,350)
 
 # Function to initiate the video download
 def click():
